@@ -1,4 +1,4 @@
-# cryptocurrency
+# Holdection
 
 ## Project setup
 ```
