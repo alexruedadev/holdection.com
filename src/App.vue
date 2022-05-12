@@ -1,15 +1,18 @@
 <template>
+  <custom-menu></custom-menu>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CoinMarket></CoinMarket>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CoinMarket from './components/marketplace/CoinMarket.vue'
+import CustomMenu from './components/navigation/CustomMenu.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CoinMarket,
+    CustomMenu
   }
 }
 </script>
